@@ -1,0 +1,90 @@
+body {
+  background-image: url(../../../assets/img/bg-img/bg-login-blur.jpg);
+  font-family: Open Sans;
+  padding-top: 40px;
+    padding-bottom: 40px;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-color: rgb(172, 245, 124);
+    padding:20px;
+  } 
+  @media screen and (max-width: 600px) {
+    body {
+      background-image: url(../../../assets/img/bg-img/bg-login-blur.jpg);
+      font-family: Open Sans;
+      padding-top: 40px;
+        padding-bottom: 40px;
+        background-size:cover;
+        background-position:center center;
+        background-repeat:repeat;
+        background-attachment: fixed;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-color: rgb(172, 245, 124);
+        padding:20px;
+      } 
+} 
+
+label {color:#FFF}
+h2{text-align:center; color:#FFF}
+p{margin-bottom:10px; color:#FFF} 
+form{color:#FFF}
+
+.form-signin {
+ background:rgba(0, 0, 0, 0.39);
+ box-shadow: 0px 0px 0px 0px;
+ border-radius:5px;
+ width:300px;
+ margin:15px auto;
+ padding:20px;
+
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input{
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn{
+ 
+   padding: 6px 36px;
+
+}
+
+.container{
+	width: 400px;
+	height: 200px;
+	position: relative;
+
+	left: 50%;
+	
+	margin-left: -230px;
+	padding:80px;
+}

@@ -1,0 +1,40 @@
+.container {
+    background-color: transparent;
+    width:90%;
+}
+.akame--video--area .video-content-area{
+    position: center;
+    background-color: transparent;
+    border-color: #21e03a;
+    border-left: 5%;
+    border-right: 5%;
+    width: 100%;
+}
+
+.single-team-member {
+    background-color: honeydew;
+}
+.akame--video--area::before {
+    background-color: transparent;
+}
+.col-12 .col-lg-6{
+    width: 950px;
+    margin: auto;
+    background-color:rgba(255,255,255,0.8);
+    border-radius: 50px;
+  }
+.section-heading{
+    height: auto;
+    background: transparent;
+    margin-top: 12%;
+  }
+  img {
+      width: 100%; 
+      height: 200px;
+  }
+  .single-testimonial-slide img{
+      height: auto;
+  }
+  .akame--video--area .video-content-area .video-play-btn:hover, .akame--video--area .video-content-area .video-play-btn:focus {
+    background-color:  red;
+}

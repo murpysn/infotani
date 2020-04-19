@@ -1,0 +1,34 @@
+.choose-us-thumbnail {
+    background-color: #ebebeb;
+}
+.single-team-member {
+    background-color: #ffffff;
+}
+.single-team-member :hover{
+    background-color: #21e03a;
+}
+.single-team-member .team-member-info :hover{
+    color: #ffffff;
+}
+.single-team-member:hover .team-member-info h5, .single-team-member:focus .team-member-info h5{
+    color: black;
+}
+.single-team-member :hover .social-link, single-team-member:focus .social-link {
+    background-color: transparent;
+}
+.single-team-member .team-member-img .team-social-info .social-link a:hover, .single-team-member .team-member-img .team-social-info .social-link a:focus {
+
+    background-color: #21e03a;
+
+-webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+
+box-shadow: 0 2px 40px 8px
+rgba(15, 15, 15, 0.15);
+
+color: #ffffff;}
+.single-team-member .team-member-img .team-social-info .social-link a:hover, .single-team-member .team-member-img .team-social-info .social-link a:focus {
+    color: white;
+}
+.team-member-img img{
+    height: 250px;
+}
